@@ -247,7 +247,7 @@ def get_feature_data(filename):
 
 print('start')
     
-if True:
+if __name__== '__main__':
     
     feature_names = ['B-V', 'B-R', 'V-R', 'Teff', 
                      'period0', 'period1', 'period1',
